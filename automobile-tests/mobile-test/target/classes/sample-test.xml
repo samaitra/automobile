@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTests" verbose="1" >
+    <listeners>
+        <listener class-name="com.flipkart.automobile.core.TestListener" />
+    </listeners>
+
+    <test name="SmokeTests">
+        <classes>
+            <class name="com.flipkart.automobile.tests.mobile.SampleTest" />
+        </classes>
+    </test>
+</suite>
