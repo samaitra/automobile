@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
 
     <modules>
-
+        <module>api-test</module>
         <module>mobile-test</module>
     </modules>
 

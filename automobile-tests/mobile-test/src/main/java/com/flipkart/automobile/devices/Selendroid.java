@@ -1,4 +1,4 @@
-package com.flipkart.automobile.pages;
+package com.flipkart.automobile.devices;
 
 import com.flipkart.automobile.util.Common;
 import com.flipkart.automobile.util.Device;
@@ -10,13 +10,14 @@ import com.flipkart.automobile.util.Device;
  * Time: 7:13 PM
  * To change this template use File | Settings | File Templates.
  */
-public class iOS extends Common implements Device{
+public class Selendroid  extends Common implements Device {
 
     public boolean action()
     {
         logger.info("method action() Not yet implemented");
         return true;
     }
+
 
 
 

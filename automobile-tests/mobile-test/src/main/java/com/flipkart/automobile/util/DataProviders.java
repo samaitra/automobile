@@ -1,9 +1,9 @@
 package com.flipkart.automobile.util;
 
 import com.flipkart.automobile.core.BaseTest;
-import com.flipkart.automobile.pages.Android;
-import com.flipkart.automobile.pages.Selendroid;
-import com.flipkart.automobile.pages.iOS;
+import com.flipkart.automobile.devices.Android;
+import com.flipkart.automobile.devices.Selendroid;
+import com.flipkart.automobile.devices.iOS;
 import org.testng.annotations.DataProvider;
 
 import java.util.ArrayList;

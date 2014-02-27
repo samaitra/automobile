@@ -1,13 +1,10 @@
 package com.flipkart.automobile.tests.mobile;
 
 
-import com.flipkart.automobile.pages.*;
 import com.flipkart.automobile.util.DataProviders;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
-import java.util.Random;
 
 /**
  * Created with IntelliJ IDEA.
