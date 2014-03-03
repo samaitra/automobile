@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Convert" verbose="1" >
+    <listeners>
+        <listener class-name="com.flipkart.automobile.core.TestListener" />
+
+    </listeners>
+
+
+    <test name="APITests">
+        <classes>
+         </classes>
+    </test>
+</suite>
