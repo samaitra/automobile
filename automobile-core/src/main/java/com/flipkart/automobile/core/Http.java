@@ -140,7 +140,7 @@ public class Http {
         //Set up the initial connection
         connection = (HttpURLConnection)URL.openConnection();
         connection.setRequestMethod("GET");
-        connection.setRequestProperty("User-Agent", "fk_android_app");
+        connection.setRequestProperty("User-Agent", "");
         connection.setRequestProperty("nsid", response_AddToCart.get("nsid").toString());
         connection.setRequestProperty("vid", response_AddToCart.get("vid").toString());
         connection.setDoOutput(true);
@@ -172,7 +172,7 @@ public class Http {
 
         //add request header
         con.setRequestMethod("POST");
-        con.setRequestProperty("User-Agent", "fk_android_app");
+        con.setRequestProperty("User-Agent", "");
         con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
 
 
@@ -228,7 +228,7 @@ public class Http {
 
             //add request header
             con.setRequestMethod("POST");
-            con.setRequestProperty("User-Agent", "fk_android_app");
+            con.setRequestProperty("User-Agent", "");
             con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
             con.setRequestProperty("nsid", sessionData.get("nsid").toString());
             con.setRequestProperty("vid", sessionData.get("vid").toString());
